@@ -1,0 +1,51 @@
+.layout-wrapper {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  object-fit: cover;
+  /* background-attachment: fixed; */
+}
+
+/* .bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: transparent;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../Assets/imgsVids/Portfolio.png');
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  object-fit: cover !important;
+  z-index: -2;
+} */
+
+.overlay {
+  display: none; 
+}
+
+.page-content, section {
+  flex-grow: 1;
+  background: transparent !important;
+  z-index: 1;
+}
+
+section {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 3rem 0.5rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-margin-top: 80px;
+  background: transparent;
+  box-sizing: border-box;
+  scroll-margin-top: 100px;
+}

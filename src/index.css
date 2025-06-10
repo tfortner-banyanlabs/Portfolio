@@ -1,0 +1,44 @@
+nav, footer {
+  position: fixed;
+  width: 100%;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.5rem 2rem; */
+  backdrop-filter: none !important;
+}
+
+nav {
+  top: 0;
+  height: 15vh;
+  justify-content: flex-end;
+  background: transparent !important;
+}
+
+footer {
+  bottom: 0;
+  justify-content: center;
+  height: 10vh;
+  background: transparent !important;
+}
+
+.nav-links a {
+  background: transparent !important;
+}
+
+.mobile-nav {
+  background: transparent !important;
+}
+.mobile-nav.open {
+  display: flex;
+  background: transparent !important;
+}
+
+.close-btn, .hamburger {
+  background: transparent !important;
+  color: white;
+}

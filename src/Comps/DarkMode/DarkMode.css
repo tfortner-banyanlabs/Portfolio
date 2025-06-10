@@ -1,0 +1,9 @@
+body.dark-mode {
+  --bg: #111;
+  --text: #fff;
+}
+
+body {
+  --bg: #fff;
+  --text: #000;
+}

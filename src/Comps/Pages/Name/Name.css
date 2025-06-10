@@ -1,0 +1,28 @@
+.name-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #111; */
+  overflow: hidden;
+  z-index: 0;
+}
+
+.intro {
+  text-align: center;
+  z-index: 1;
+  margin-top: 25vh;
+}
+
+.portfolio-logo {
+  /* max-width: 40vw; */
+  width: 80vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.85;
+  border-radius: 3%;
+}
+
