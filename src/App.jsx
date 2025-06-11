@@ -4,15 +4,12 @@ import './App.css'
 import Skills from './Comps/Pages/Skills/Skills.jsx'
 import Skills2 from './Comps/Pages/Skills/Skills2.jsx'
 import Projects from './Comps/Pages/Projects/Projects.jsx'
-import Projects2 from './Comps/Pages/Projects/Projects2.jsx'
 import ContactMe from './Comps/Pages/ContactMe/ContactMe.jsx'
 import AboutMe from './Comps/Pages/AboutMe/AboutMe.jsx'
 import Nav2 from './Comps/Nav/Nav2'
 import Name from '../src/Comps/Pages/Name/Name'
-import Layout from './Comps/Layout/Layout.jsx'
 import Resume from './Comps/Pages/Resume/Resume.jsx'
 import Footer from './Comps/Footer/Footer.jsx'
-import Portfolio from '../public/imgsVids/profile/Portfolio.png'
 
 
 function App() {
@@ -20,7 +17,9 @@ function App() {
   return (
     <>
       <div className="app-wrapper">
-      <div className="background"></div>
+      <div className="background">
+        <img src="/imgsVids/profile/Portfolio.png" alt="Portfolio" />
+</div>
       <Nav2 />
       <main className="main-content">
         <section id="home"><Name /></section>
