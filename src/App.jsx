@@ -12,7 +12,7 @@ import Name from '../src/Comps/Pages/Name/Name'
 import Layout from './Comps/Layout/Layout.jsx'
 import Resume from './Comps/Pages/Resume/Resume.jsx'
 import Footer from './Comps/Footer/Footer.jsx'
-import PortfolioImg from './Comps/Assets/imgsVids/Portfolio.png'
+import PortfolioImg from '../public/imgsVids/profile/Portfolio.png'
 
 
 function App() {
