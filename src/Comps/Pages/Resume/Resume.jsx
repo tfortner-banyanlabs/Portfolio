@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume.css';
-import resumePDF from '../../Assets/ResumePDF/tabitha_fortnerResume.pdf';
+import resumePDF from '../../../../public/ResumePDF/tabitha_fortnerResume.pdf';
 
 const Resume = () => (
   <section id='resume' className='resume-section'>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Name.css';
-import PortfolioLogo from '../../Assets/imgsVids/Portfolio.png';
+import PortfolioLogo from '../../../../public/imgsVids/profile/ProfilePics.png';
 
 const Name = () => {
   return (
