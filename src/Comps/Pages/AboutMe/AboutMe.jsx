@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './AboutMe.css';
-import ProfilePics from '../../../../public/imgsVids/profile/ProfilePics.png'
+import ProfilePics from '/imgsVids/profile/ProfilePics.png'
 
 const AboutMe = () => {
   const aboutRef = useRef();

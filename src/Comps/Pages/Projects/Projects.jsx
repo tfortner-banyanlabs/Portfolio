@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import './Projects.css';
-import HeaderImg from '../../../../public/imgsVids/projects/NotesApp/HeaderTC.png'
-import LoginOutlined from '../../../../public/imgsVids/projects/NotesApp/LoginOutlined.png'
-import LoginNImg from '../../../../public/imgsVids/projects/NotesApp/LoginNotes.png';
-import Map from '../../../../public/imgsVids/projects/NotesApp/Map.png';
-import LROption from '../../../../public/imgsVids/projects/NotesApp/NotesLR.png'
-import Register from '../../../../public/imgsVids/projects/NotesApp/Register.png'
-import IdeaSuggest from '../../../../public/imgsVids/projects/Whitneys/IdeasTitle.png'
-import IdeaTC from '../../../../public/imgsVids/projects/Whitneys/IdeasWhits.png'
-import LoginWhit from '../../../../public/imgsVids/projects/Whitneys/LoginWhits.png'
-import Prev from '../../../../public/imgsVids/projects/Whitneys/Prevs.png'
-import Unique from '../../../../public/imgsVids/projects/Whitneys/Unique.png' 
+import HeaderImg from '/imgsVids/projects/NotesApp/HeaderTC.png'
+import LoginOutlined from '/imgsVids/projects/NotesApp/LoginOutlined.png'
+import LoginNImg from '/imgsVids/projects/NotesApp/LoginNotes.png';
+import Map from '/imgsVids/projects/NotesApp/Map.png';
+import LROption from '/imgsVids/projects/NotesApp/NotesLR.png'
+import Register from '/imgsVids/projects/NotesApp/Register.png'
+import IdeaSuggest from '/imgsVids/projects/Whitneys/IdeasTitle.png'
+import IdeaTC from '/imgsVids/projects/Whitneys/IdeasWhits.png'
+import LoginWhit from '/imgsVids/projects/Whitneys/LoginWhits.png'
+import Prev from '/imgsVids/projects/Whitneys/Prevs.png'
+import Unique from '/imgsVids/projects/Whitneys/Unique.png' 
 
 const Projects = () => {
   const [lightbox, setLightbox] = useState({ isOpen: false, imgIndex: 0, images: [] });
