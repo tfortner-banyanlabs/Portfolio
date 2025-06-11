@@ -18,7 +18,7 @@ function App() {
     <>
       <div className="app-wrapper">
       <div className="background">
-        <img src="/imgsVids/profile/Portfolio.png" alt="Portfolio" />
+        <img src="/imgsVids/Portfolio.png" alt="Portfolio" />
 </div>
       <Nav2 />
       <main className="main-content">
