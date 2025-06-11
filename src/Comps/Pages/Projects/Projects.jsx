@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Projects.css';
 import HeaderImg from './projects/NotesApp/HeaderTitleContentNotesApp.png'
 import LoginOutlined from './projects/NotesApp/NotesAppLoginOutlined.png'
-import LoginNImg from './projects/NotesApp/LoginNotesApp.png'
-import Map from './projects/NotesApp/MapNotesApp.png'
+import LoginNImg from './projects/NotesApp/LoginNotesApp.png';
+import Map from './projects/NotesApp/MapNotesApp.png';
 import LROption from './projects/NotesApp/NotesAppLRoption.png'
 import Register from './projects/NotesApp/RegisterNoteApp.png'
 import IdeaSuggest from './projects/Whitneys/IdeasSuggestWhits.png'
@@ -49,9 +49,7 @@ const Projects = () => {
 
   return (
     <section id='projects' className='projects-section'>
-     <strong>
-      <h1>My Projects</h1>
-      </strong> 
+      <h1><strong>My Projects</strong></h1>
       <br />
       {projects.map((project, index) => (
         <div key={index} className='project-card'>
