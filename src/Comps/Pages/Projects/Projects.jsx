@@ -65,7 +65,7 @@ const Projects = () => {
           <br />
           <div className='project-gallery'>
             {project.images.map((img, i) => (
-              <img
+              <img className='bg-white'
                 key={i}
                 src={img}
                 alt={`${project.name} screenshot ${i + 1}`}
